@@ -2,9 +2,9 @@
 
 echo "Ensure the filename checker is in the same directory as your assignment files."
 
-read -r -p "Enter your CCID: " gokula
+read -r -p "Enter your CCID: " ccid
 
-expected_filename="$gokula_decision_making_app.zip"
+expected_filename="${ccid}_decision_making_app.zip"
 
 # Get directory where this script is located
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
